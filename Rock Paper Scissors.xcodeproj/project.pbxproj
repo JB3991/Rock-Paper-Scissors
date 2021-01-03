@@ -13,6 +13,8 @@
 		48D07C2A25A2003400072432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C2825A2003400072432 /* Main.storyboard */; };
 		48D07C2C25A2003B00072432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C2B25A2003B00072432 /* Assets.xcassets */; };
 		48D07C2F25A2003B00072432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C2D25A2003B00072432 /* LaunchScreen.storyboard */; };
+		48D07C3825A2005700072432 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C3725A2005700072432 /* GameState.swift */; };
+		48D07C3B25A2006E00072432 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C3A25A2006E00072432 /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		48D07C2B25A2003B00072432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D07C2E25A2003B00072432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48D07C3025A2003B00072432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D07C3725A2005700072432 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		48D07C3A25A2006E00072432 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		48D07C2125A2003400072432 /* Rock Paper Scissors */ = {
 			isa = PBXGroup;
 			children = (
-				48D07C2225A2003400072432 /* AppDelegate.swift */,
-				48D07C2425A2003400072432 /* SceneDelegate.swift */,
+				48D07C3725A2005700072432 /* GameState.swift */,
+				48D07C3A25A2006E00072432 /* Sign.swift */,
 				48D07C2625A2003400072432 /* ViewController.swift */,
 				48D07C2825A2003400072432 /* Main.storyboard */,
+				48D07C2225A2003400072432 /* AppDelegate.swift */,
+				48D07C2425A2003400072432 /* SceneDelegate.swift */,
 				48D07C2B25A2003B00072432 /* Assets.xcassets */,
 				48D07C2D25A2003B00072432 /* LaunchScreen.storyboard */,
 				48D07C3025A2003B00072432 /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				48D07C2725A2003400072432 /* ViewController.swift in Sources */,
+				48D07C3825A2005700072432 /* GameState.swift in Sources */,
+				48D07C3B25A2006E00072432 /* Sign.swift in Sources */,
 				48D07C2325A2003400072432 /* AppDelegate.swift in Sources */,
 				48D07C2525A2003400072432 /* SceneDelegate.swift in Sources */,
 			);
